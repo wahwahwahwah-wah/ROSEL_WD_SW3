@@ -221,3 +221,108 @@ body {
     padding: 10px;
 }
 
+.design5 {
+display: flex;
+align-items: flex-start;
+justify-content: center;
+padding: 20px;
+background-color: #34495e;
+color: #fff;
+}
+
+.design5 .sidebar {
+width: 250px;
+background: #2c3e50;
+padding: 20px 0;
+text-align: center;
+}
+
+.design5 .sidebar h2 {
+color: #ecf0f1;
+text-transform: uppercase;
+margin-bottom: 30px;
+}
+
+.design5 .sidebar ul {
+list-style: none;
+padding: 0;
+}
+
+.design5 .sidebar ul li {
+margin: 20px 0;
+}
+
+.design5 .sidebar ul li a {
+text-decoration: none;
+color: #bdc3c7;
+font-size: 18px;
+display: block;
+width: 100%;
+padding: 10px 0;
+transition: background 0.3s, color 0.3s;
+}
+
+.design5 .sidebar ul li a:hover {
+background: #2980b9;
+color: #fff;
+}
+
+.design5 .social_media {
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+
+.design5 .social_media a {
+color: #ecf0f1;
+font-size: 20px;
+}
+
+.design5-an {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+background-color: #34495e;
+color: #fff;
+}
+
+.design5-an .side-header {
+width: 250px;
+background: #2c3e50;
+height: auto;
+padding: 20px 0;
+text-align: center;
+}
+
+.design5-an .logo5-an {
+margin-bottom: 30px;
+}
+
+.design5-an .logo5-an img {
+width: 150px;
+}
+
+.design5-an .buttons5-an {
+list-style: none;
+padding: 0;
+}
+
+.design5-an .buttons5-an li {
+margin: 20px 0;
+}
+
+.design5-an .buttons5-an li a {
+text-decoration: none;
+color: #bdc3c7;
+font-size: 18px;
+display: block;
+width: 100%;
+padding: 10px 0;
+transition: background 0.3s, color 0.3s;
+}
+
+.design5-an .buttons5-an li a:hover {
+background: #2980b9;
+color: #fff;
+}

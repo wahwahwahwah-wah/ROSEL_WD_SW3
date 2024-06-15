@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.static{
+    background-color: #f0f2f5;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: #ff85a2;
+}
+
+.dynamic{
+    background-color: #f0f2f5;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: #ff85a2;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white;
+}
+.header img {
+    height: 30px;
+}
+
+.header input {
+    height: 20px;
+}
+
+.header .icons img {
+    height: 20px;
+    margin-left: 10px;
+}
+.left-section, .center-section, .right-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-section .logo {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.left-section .menu {
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.menu-item.active {
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+}
+
+.center-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.center-section .search-bar {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f2f5;
+    outline: none;
+    font-size: 16px;
+}
+
+.right-section .icon {
+    position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.right-section .icon img {
+    height: 30px;
+}
+
+.notification-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.bootstrap {
+    background: #563d7c;
+    height: 64px;
+    margin-top: 20px;
+}
+
+.bootstrap button {
+    padding: 5px 10px;
+    background: #7952b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.app-bar {
+    background-color: #FF69B4;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.app-bar-title {
+    margin: 0;
+}
+.youtube {
+    background: white;
+    color: black;
+    height: 52px;
+    margin-top: 20px;
+}
+
+
+.left-section, .center-section, .right-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-section .logo {
+    height: 40px;
+}
+
+.left-section .search-bar {
+    margin-left: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f2f5;
+    outline: none;
+    font-size: 16px;
+}
+
+.center-section .icon {
+    margin: 0 10px;
+    height: 30px;    cursor: pointer;
+}
+
+.center-section .icon:hover {
+    border-bottom: 2px solid blue;
+    padding-bottom: 2px;
+}
+
+.right-section .icon {
+    margin: 0 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.right-section .icon:last-child {
+    border-radius: 50%;
+    border: 2px solid #1877F2;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul li {
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.header nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.header1 {
+    background: #1abc9c;
+    margin-top: 20px;
+    padding: 10px;
+}
+

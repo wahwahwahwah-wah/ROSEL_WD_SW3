@@ -18,6 +18,15 @@ body {
     color: #ff85a2;
 }
 
+.home-button {
+    background-color: #ff85a2;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
 
 .header {
     display: flex;
@@ -134,6 +143,7 @@ body {
     height: 52px;
     margin-top: 20px;
 }
+
 
 
 .left-section, .center-section, .right-section {
@@ -325,4 +335,135 @@ transition: background 0.3s, color 0.3s;
 .design5-an .buttons5-an li a:hover {
 background: #2980b9;
 color: #fff;
+}
+.static, .dynamic {
+    background-color: #f0f2f5;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: #ff85a2;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    height: 40px;
+}
+
+.header .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.header .nav a:hover {
+    color: orange;
+}
+
+.header5 {
+    background-color: #333;
+}
+
+.dynamic-header-1 {
+    background-color: #3498db;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.dynamic-header-1:hover {
+    background-color: #2980b9;
+}
+
+.dynamic-header-2 {
+    background-color: #e74c3c;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.dynamic-header-2 .nav a {
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+
+.dynamic-header-2 .nav a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.dynamic-header-2 .nav a:hover::after {
+    transform: scaleX(1);
+}
+
+.dynamic-header-2 .search-bar {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    transition: width 0.3s ease-in-out;
+}
+
+.dynamic-header-2 .search-bar:focus {
+    width: 200px;
+}
+
+.dynamic-header-3 {
+    background-color: #2c3e50;
+    animation: fadeIn 1s ease-in-out;
+    margin-left: -50px
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.dynamic-header-3 button {
+    background-color: #16a085;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dynamic-header-3 button:hover {
+    background-color: #1abc9c;
 }

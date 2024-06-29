@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer .social-icons {
+    margin: 10px 0;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+}
+
+.footer .newsletter {
+    margin: 20px 0;
+}
+
+.footer .newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.footer .newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.footer .contact-info {
+    margin: 20px 0;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-1 {
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+}
+
+.footer-2 {
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+}
+
+.footer-3 {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+.footer-4 {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+.footer .logo {
+    display: block;
+    margin: auto;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.footer .social-icons {
+    margin: 10px 0;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+}
+
+.footer-2 .links {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.footer-2 .links .column {
+    margin: 0 20px;
+}
+
+.footer-2 .links h4 {
+    margin-bottom: 10px;
+}
+
+.footer-3 .nav {
+    margin: 20px 0;
+}
+
+.footer-3 .nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-4 .columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.footer-4 .column {
+    margin: 10px;
+}
+
+.footer-4 .column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-4 .subscribe {
+    text-align: left;
+}
+
+.footer-4 .subscribe input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-4 .subscribe button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+/* Dynamic Footers Styles */
+
+/* Footer 6 */
+.footer {
+    transition: background-color 0.3s ease;
+}
+
+.footer:hover {
+    background-color: #0056b3;
+}
+
+.footer .social-icons2 a {
+    transition: transform 0.3s ease;
+}
+
+.footer .social-icons2 a:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.footer .newsletter2 input {
+    transition: width 0.3s ease;
+}
+
+.footer .newsletter2 input:focus {
+    width: 250px;
+}
+
+.footer .newsletter2 button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer .newsletter2 button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Footer 7 */
+.footer-1 .content2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-1 .logo2 {
+    transition: transform 0.5s ease;
+}
+
+.footer-1:hover .logo2 {
+    transform: translateY(-10px);
+}
+
+.footer-1 .social-icons2 {
+    position: relative;
+}
+
+.footer-1 .social-icons2 a {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer-1 .social-icons2 a:hover {
+    opacity: 0.7;
+    transform: translateY(-5px);
+}
+
+/* Footer 2 (Dynamic version) */
+.footer-2 .content {
+    transition: transform 0.3s ease;
+}
+
+.footer-2:hover .content {
+    transform: scale(1.02);
+}
+
+.footer-2 .links a {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-2 .links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007BFF;
+    transition: width 0.3s ease;
+}
+
+.footer-2 .links a:hover::after {
+    width: 100%;
+}
+
+/* Footer 3 (Dynamic version) */
+.footer-3 .nav a {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-3 .nav a:hover {
+    color: #007BFF;
+    transform: translateX(5px);
+}
+
+.footer-3 .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-3 .social-icons a {
+    transition: transform 0.3s ease;
+}
+
+.footer-3 .social-icons a:hover {
+    transform: rotate(360deg);
+}
+
+/* Footer 4 (Dynamic version) */
+.footer-4 .column a {
+    transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.footer-4 .column a:hover {
+    color: #007BFF;
+    padding-left: 5px;
+}
+
+.footer-4 .subscribe input {
+    transition: box-shadow 0.3s ease;
+}
+
+.footer-4 .subscribe input:focus {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.footer-4 .subscribe button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-4 .subscribe button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.footer-4 .social-icons a {
+    animation: pulse 2s infinite;
+}
+
+.footer-4 .social-icons a:hover {
+    animation-play-state: paused;
+}

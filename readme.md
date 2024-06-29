@@ -62,22 +62,29 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+  - A multi-page website containg static and dynamic headers and footers.
 - Whats the purpose
+  - To showcase my skills in creating headers and footers.
 - What are key components
+  - Multi-page webiste
+  - Static and Dynamic headers
+  - Static and Dynamic Footers
 - What technology used and how it is used
+  - Only HTML and an external CSS is used.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- 5 Static Headers
+- 5 Dynamic Headers
+- 5 Static Footers
+- 5 Dynamic Footers
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -97,8 +104,6 @@ WD-ProjectName
 |   |   └─ style.css
 |   └─ img
 |   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
 └─ pages
 |  └─ pageName
 |     └─ assets
@@ -106,8 +111,6 @@ WD-ProjectName
 |     |  |  └─ style.css
 |     |  └─ img
 |     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
 |     └─ index.html
 └─ index.html
 └─ readme.md
@@ -118,4 +121,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| CSS animations | Sample purpose would be here like this and this is the example of what it is. | https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations |

@@ -10,6 +10,17 @@ body {
     color: #ff85a2;
 }
 
+.home-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #ff85a2;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
 .dynamic{
     background-color: #f0f2f5;
     padding: 10px;

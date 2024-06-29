@@ -20,8 +20,10 @@ body {
     margin: 10px 0;
 }
 
-.footer .social-icons a {
-    margin: 0 10px;
+.footer .social-icons img,
+.footer .logo {
+    width: 30px;
+    height: 30px;
 }
 
 .footer .newsletter {
@@ -46,10 +48,6 @@ body {
 
 .footer .contact-info {
     margin: 20px 0;
-}
-.footer {
-    text-align: center;
-    padding: 20px 0;
 }
 
 .footer .content {
@@ -82,21 +80,8 @@ body {
     margin-top: 30px;
 }
 
-.footer .logo {
-    display: block;
-    margin: auto;
-}
-
 .footer p {
     margin: 10px 0;
-}
-
-.footer .social-icons {
-    margin: 10px 0;
-}
-
-.footer .social-icons a {
-    margin: 0 10px;
 }
 
 .footer-2 .links {
@@ -173,6 +158,11 @@ body {
     transition: transform 0.3s ease;
 }
 
+.footer .social-icons2 img {
+    width: 30px;
+    height: 30px;
+}
+
 .footer .social-icons2 a:hover {
     transform: scale(1.2) rotate(10deg);
 }
@@ -210,6 +200,11 @@ body {
 
 .footer-1 .social-icons2 {
     position: relative;
+}
+
+.footer-1 .social-icons2 img {
+    width: 30px;
+    height: 30px;
 }
 
 .footer-1 .social-icons2 a {
@@ -265,6 +260,11 @@ body {
     justify-content: center;
 }
 
+.footer-3 .social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
 .footer-3 .social-icons a {
     transition: transform 0.3s ease;
 }
@@ -306,7 +306,9 @@ body {
     100% { transform: scale(1); }
 }
 
-.footer-4 .social-icons a {
+.footer-4 .social-icons img {
+    width: 30px;
+    height: 30px;
     animation: pulse 2s infinite;
 }
 
